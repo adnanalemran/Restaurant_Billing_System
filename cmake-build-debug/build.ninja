@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/c/Restaurant_Billing_System/cmake-build-debug/
+cmake_ninja_workdir = D$:/C_program/Project/Restaurant_Billing_System/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Restaurant_Billing_System
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/c/Restaurant_Billing_System/cmake-build-debug/
 
 build cmake_object_order_depends_target_Restaurant_Billing_System: phony || CMakeFiles/Restaurant_Billing_System.dir
 
-build CMakeFiles/Restaurant_Billing_System.dir/main.c.obj: C_COMPILER__Restaurant_Billing_System_Debug D$:/c/Restaurant_Billing_System/main.c || cmake_object_order_depends_target_Restaurant_Billing_System
+build CMakeFiles/Restaurant_Billing_System.dir/main.c.obj: C_COMPILER__Restaurant_Billing_System_Debug D$:/C_program/Project/Restaurant_Billing_System/main.c || cmake_object_order_depends_target_Restaurant_Billing_System
   DEP_FILE = CMakeFiles\Restaurant_Billing_System.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\Restaurant_Billing_System.dir
@@ -81,7 +81,7 @@ build Restaurant_Billing_System.exe: C_EXECUTABLE_LINKER__Restaurant_Billing_Sys
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\c\Restaurant_Billing_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\C_program\Project\Restaurant_Billing_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\c\Restaurant_Billing_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\c\Restaurant_Billing_System -BD:\c\Restaurant_Billing_System\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\C_program\Project\Restaurant_Billing_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\C_program\Project\Restaurant_Billing_System -BD:\C_program\Project\Restaurant_Billing_System\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Restaurant_Billing_System: phony Restaurant_Billing_System.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/c/Restaurant_Billing_System/cmake-build-debug
+# Folder: D:/C_program/Project/Restaurant_Billing_System/cmake-build-debug
 
 build all: phony Restaurant_Billing_System.exe
 
