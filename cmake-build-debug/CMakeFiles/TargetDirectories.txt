@@ -1,3 +1,0 @@
-D:/C_program/Project/Restaurant_Billing_System/cmake-build-debug/CMakeFiles/Restaurant_Billing_System.dir
-D:/C_program/Project/Restaurant_Billing_System/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C_program/Project/Restaurant_Billing_System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
